@@ -1,0 +1,487 @@
+<mjml>
+    <mj-head>
+        <mj-breakpoint width="600px"/>
+        <mj-attributes>
+            <mj-all color="inherit" font-family="Arial, sans-serif" />
+            <mj-button font-size="18px" font-weight="700" border-radius="100px" inner-padding="16px 24px" css-class="button" />
+        </mj-attributes>
+        <mj-raw>
+            <meta name="color-scheme" content="light dark">
+            <meta name="supported-color-schemes" content="light dark">
+        </mj-raw>
+        <mj-style>
+            div[data-container="main"] {
+                /* Email builder compatability styles */
+                max-width: 600px;
+                margin: 0 auto;
+            }
+
+            body {
+                color: #000000;
+                font-family: Arial, sans-serif;
+                font-size: 16px;
+            }
+
+            a {
+                color: #000000;
+                font-weight: 700;
+            }
+
+            h1,h2,h3,h4,h5,h6 {
+                color: #000000;
+                font-family: Arial, sans-serif;
+            }
+
+            h1 {
+                font-size: 32px;
+                line-height: 1.1;
+            }
+
+            h2 {
+                font-size: 24px;
+                line-height: 1.1;
+            }
+
+            h3 {
+                font-size: 18px;
+                line-height: 1.1;
+            }
+
+            p {
+                font-size: 16px;
+                line-height: 1.6;
+            }
+
+            .wysiwyg > div > *:first-child {
+                margin-top: 0;
+            }
+
+            .wysiwyg > div > *:last-child {
+                margin-bottom: 0;
+            }
+
+            .mobile-only {
+                display: none!important;
+            }
+
+            @media (max-width: 599px) {
+                .responsive-col-padding > table > tbody > tr > td {
+                    padding: 0 25px 20px!important;
+                }
+
+                .desktop-only {
+                    display: none!important;
+                }
+
+                .signature-img {
+                    width: 30%!important;
+                }
+
+                .signature-text {
+                    width: 70%!important;
+                }
+
+                .header-block > table > tbody > tr > td {
+                    padding: 20px 0 0!important;
+                }
+
+                .header-block .button {
+                    text-align: center!important;
+                    padding: 24px 0 0!important;
+                }
+
+                .header-block .button table {
+                    width: 100%!important;
+                }
+
+                .header-block .button td {
+                    border-radius: 0!important;
+                }
+
+                .header-block .button a {
+                    border-radius: 0!important;
+                    font-weight: bold!important;
+                    width: 100%!important;
+                    padding: 15px 0!important;
+                }
+            }
+
+            .hide-content {
+                display: none !important;
+                mso-hide: all;
+            }
+
+            .hide-content * {
+                display: none !important;
+                mso-hide: all;
+            }
+        </mj-style>
+        <mj-style>
+            /* dark mode styles */
+            :root {
+                color-scheme: light dark;
+                supported-color-schemes: light dark;
+            }
+
+            .dark-only {
+                display: none;
+            }
+
+            [data-ogsc] .dark-only {
+                display: block !important;
+            }
+
+            [data-ogsc] .light-only {
+                display: none !important;
+            }
+
+
+            @media (prefers-color-scheme: dark) {
+                .light-only {
+                  display: none !important;
+                }
+
+                .dark-only {
+                  display: block !important;
+                }
+
+                body,
+                .email-body {
+                    color: #eeeeee !important;
+                    background-color: #171819 !important;
+                }
+
+                a {
+                    color: #9ca4a5 !important;
+                }
+
+                h1,h2,h3,h4,h5,h6 {
+                    color:  #b0b4b5 !important;
+                }
+
+                .block,
+                .block > table,
+                .spacer-block td {
+                    background-color: #0e0f0f !important;
+                }
+
+                .header-block.block,
+                .header-block.block > table {
+                    background-color: #121314 !important;
+                }
+
+                .pre-footer-block.block,
+                .pre-footer-block.block > table {
+                    background-color: #1f2021 !important;
+                }
+
+                .footer-menu-block.block,
+                .footer-menu-block.block > table {
+                    background-color: #121314 !important;
+                }
+
+                .button td,
+                .button a {
+                    background-color: #eaebec !important;
+                    color: #121314 !important;
+                }
+
+                .card-block .card-inner td {
+                    background-color: #1f2021 !important;
+                }
+
+                .side-by-side-card-block .card-inner > table table > tbody > tr > td {
+                    background-color: #1f2021 !important;
+                }
+
+                .social-link table {
+                    background-color: #b0b4b5 !important;
+                }
+
+                .social-link table td {
+                    padding: 0px !important;
+                }
+
+                .social-link table,
+                .social-link img {
+                    border-radius: 50% !important;
+                }
+
+                .social-link img {
+                    border: 1px solid #b0b4b5 !important;
+                    border-radius: 50% !important;
+                }
+            }
+
+            /*
+              Black #000000
+              White #FFFFFF
+              Yellow #FFFF3B
+              Pink: #FF5D70
+             */
+        </mj-style>
+    </mj-head>
+    <mj-body css-class="email-body" background-color="#f4f4f4">
+        <!-- START: Main Content -->
+        <!-- START: Header -->
+        <mj-section css-class="header-block block" background-color="#FFFF3B">
+            <mj-column vertical-align="middle" width="40%">
+                <mj-image
+                    src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1839/email-logo.png?v=1741276393000"
+                    width="140px"
+                    align="left"
+                    href=""
+                    padding="0px 0px 0px 25px"
+                    alt=""
+                    css-class="light-only"
+                />
+                <mj-raw><!--[if !mso]><!--></mj-raw>
+                <mj-image
+                    src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1839/email-logo-reverse.png?v=1741276383000"
+                    width="140px"
+                    align="left"
+                    href=""
+                    padding="0px 0px 0px 25px"
+                    alt=""
+                    css-class="dark-only"
+                />
+                <mj-raw><!--<![endif]--></mj-raw>
+            </mj-column>
+            <mj-column vertical-align="middle" width="60%">
+                <mj-button
+                        padding="0 25px 0 0"
+                        color="#FFFF3B"
+                        background-color="#000000"
+                        href=""
+                        align="right"
+                >
+                    TOGGLEABLE BUTTON
+                </mj-button>
+            </mj-column>
+        </mj-section>
+        <!-- END: Header -->
+
+        <!-- START: Heading -->
+        <mj-section css-class="text-block block" background-color="#000000" padding="15px 0">
+            <mj-column>
+                <mj-text padding="0 25px" css-class="wysiwyg" align="center">
+                    <h1 style="color:#FFFF3B; font-size: 18px; margin: 0">
+                        &mdash; URGENT ACTION NETWORK &mdash;
+                    </h1>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <!-- END: Heading -->
+
+        <!-- START: Image -->
+        <mj-section css-class="image-block block" background-color="#ffffff" padding="0">
+            <mj-column>
+                <mj-image
+                    src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1839/email-hero-placeholder.jpg?v=1741276391000"
+                    alt="Custom alt text"
+                    href=""
+                    padding="0"
+                />
+            </mj-column>
+        </mj-section>
+        <!-- END: Image -->
+
+        <!-- START: WYSIWYG (Text content) -->
+        <mj-section css-class="text-block block" background-color="#ffffff">
+            <mj-column>
+                <mj-text padding="0 25px" css-class="wysiwyg">
+                    <h1 style="text-transform: uppercase;">Urgent action block: A really urgent call for big moments</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur. Scelerisque vel mattis feugiat nec risus netus donec. Purus dolor pretium neque nulla sed malesuada. Sit morbi imperdiet faucibus viverra neque nunc..</p>
+                    <a href="test.com">TEXT LINK EXAMPLE &rarr;</a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <!-- END: WYSIWYG (Text content) -->
+
+        <!-- START: CTA Button -->
+        <mj-section css-class="cta-button-block block" background-color="#FFFF3B" padding="5px 0">
+            <mj-column>
+                <mj-button
+                    color="#FFFF3B"
+                    background-color="#000000"
+                    href=""
+                    align="left"
+                >
+                    TAKE ACTION
+                </mj-button>
+            </mj-column>
+        </mj-section>
+        <!-- END: CTA Button -->
+
+        <!-- START: Image - Fixed Size -->
+        <mj-section css-class="fixed-image-block block" background-color="#ffffff" padding="0">
+            <mj-column>
+                <mj-image
+                    src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1839/email-image-placeholder.jpg?v=1741276388000"
+                    alt="Custom alt text"
+                    href=""
+                    width="550px"
+                    padding="15px 0px"
+                />
+            </mj-column>
+        </mj-section>
+        <!-- END: Image - Fixed Size -->
+
+        <!-- START: Card -->
+        <mj-section css-class="card-block block" background-color="#000000" padding="25px">
+            <mj-column css-class="card-inner">
+                <mj-image
+                    src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1839/email-card-image.jpg?v=1741277990000"
+                    alt="Custom alt text"
+                    padding="0"
+                    fluid-on-mobile="true"
+                    href=""
+                />
+                <mj-text css-class="wysiwyg" color="#ffffff">
+                    <h1 style="color: #ffffff">PLACEHOLDER HEADLINE FOR FEATURED CARD. REC. CHARACTER COUNT:79.</h1>
+                    <p style="color: #ffffff">Lorem ipsum dolor sit amet consectetur. Scelerisque vel mattis feugiat nec risus netus donec. Purus dolor pretium neque nulla sed malesuada. Sit morbi imperdiet faucibus viverra neque nunc.</p>
+                </mj-text>
+                <mj-button
+                        background-color="#FFFF3B"
+                        color="#000000"
+                        href=""
+                        align="left"
+                >
+                    TAKE ACTION
+                </mj-button>
+            </mj-column>
+        </mj-section>
+        <!-- END: Card -->
+
+        <!-- START: Signature card -->
+        <mj-section css-class="signature-block block" background-color="#ffffff">
+            <mj-group>
+                <mj-column css-class="signature-text">
+                    <mj-text css-class="wysiwyg" font-style="italic">
+                        <p>Sincerely,</p>
+                    </mj-text>
+                    <mj-image
+                        src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1839/Bhirsch.Sig.png?v=1592328988000"
+                        alt="Signature Image"
+                        width="180px"
+                        align="left"
+                    />
+                    <mj-text css-class="wysiwyg">
+                        <p>
+                            <span style="font-size: 20px;font-weight: 700">Billie Hirsch</span><br>
+                            Director of Online Engagement<br>
+                            Amnesty International USA
+                        </p>
+                    </mj-text>
+                </mj-column>
+            </mj-group>
+        </mj-section>
+        <!-- END: Signature card -->
+
+        <!-- START: Spacer -->
+<!--        <mj-section css-class="spacer-block block" padding="0">-->
+<!--            <mj-column>-->
+<!--                <mj-spacer height="20px" container-background-color="#ffffff" />-->
+<!--            </mj-column>-->
+<!--        </mj-section>-->
+        <!-- END: Spacer -->
+
+        <!-- START: RAW HTML -->
+<!--        <mj-section css-class="raw-html-block block" background-color="#ffffff">-->
+<!--            <mj-column>-->
+<!--                <mj-text padding="0"><h1>raw html</h1></mj-text>-->
+<!--            </mj-column>-->
+<!--        </mj-section>-->
+        <!-- END: RAW HTML -->
+
+        <!-- START: Pre-footer -->
+        <mj-section css-class="pre-footer-block block" background-color="#FFFF3B">
+            <mj-column>
+                <mj-button
+                        color="#FFFF3B"
+                        background-color="#000000"
+                        href=""
+                        align="center"
+                >
+                    TAKE ACTION
+                </mj-button>
+                <mj-text align="center" color="#ffffff" font-size="20px">
+                    <h3 style="margin:0;">ACTIVE CALL FOR COMMUNITY</h3>
+                </mj-text>
+                <mj-social icon-size="24px" icon-padding="0" mode="horizontal" inner-padding="10px">
+                    <mj-social-element
+                        css-class="social-link"
+                        name="facebook-noshare"
+                        src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1839/email-fb-icon.png?v=1741276381000"
+                        href=""
+                        background-color="#FFFF3B"
+                        icon-size="12px"
+                        alt="Facebook Logo"
+                    />
+                    <mj-social-element
+                        css-class="social-link"
+                        name="linkedin-noshare"
+                        src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1839/email-linkedin-icon.png?v=1741276380000"
+                        href=""
+                        background-color="#FFFF3B"
+                        alt="LinkedIn Logo"
+
+                    />
+                    <mj-social-element
+                        css-class="social-link"
+                        name="instagram-noshare"
+                        src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1839/email-instagram-icon.png?v=1741276378000"
+                        href=""
+                        background-color="#FFFF3B"
+                        alt="Instagram Logo"
+
+                    />
+                    <mj-social-element
+                        css-class="social-link"
+                        name="twitter-noshare"
+                        src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1839/email-x-icon.png?v=1741276377000"
+                        href=""
+                        background-color="#FFFF3B"
+                        alt="X Logo"
+
+                    />
+                </mj-social>
+            </mj-column>
+        </mj-section>
+        <!-- END: Pre-footer -->
+
+        <!-- START: Footer -->
+        <mj-section css-class="footer-block block" background-color="#000000">
+            <mj-column>
+                <mj-image
+                        alt=""
+                        src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1839/email-logo-reverse.png?v=1741276383000"
+                        width="200px"
+                        href=""
+                        css-class="light-only"
+                />
+                <mj-raw><!--[if !mso]><!--></mj-raw>
+                <mj-image
+                        alt=""
+                        src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1839/email-logo-reverse.png?v=1741276383000"
+                        width="200px"
+                        href=""
+                        css-class="dark-only"
+                />
+                <mj-raw><!--<![endif]--></mj-raw>
+                <mj-text align="center" line-height="18px" padding="10px 25px 0" color="#ffffff">
+                    <p style="font-size: 10px; max-width: 330px; margin: 0 auto;">
+                        © 2025 Amnesty International USA
+                        311 W 43rd Street, 7th Floor, New York, NY 10036 | 1-800-AMNESTY
+                        Please don't reply to this email. You can send questions to aimember@aiusa.org.</p>
+                    <p style="font-size: 10px; max-width: 330px; margin: 20px auto 0;">
+                        We’re so happy you’re here to hear about the most important updates on human rights! If necessary, you can opt to receive fewer emails or unsubscribe here.
+                    </p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <!-- END: Footer -->
+
+        <!-- END: Main Content -->
+    </mj-body>
+</mjml>
