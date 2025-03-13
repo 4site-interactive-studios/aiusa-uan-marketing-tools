@@ -304,7 +304,7 @@
                 <mj-button
                     color="#FFFF3B"
                     background-color="#000000"
-                    href=""
+                    href="https://www.amnesty.org/en/get-involved/take-action/"
                     align="left"
                 >
                     TAKE ACTION
@@ -377,6 +377,120 @@
             </mj-group>
         </mj-section>
         <!-- END: Signature card -->
+
+        <!-- START: Inline CTA Buttons -->
+        <mj-section css-class="cta-button-block block" background-color="#FFFFFF" text-align="left" padding="20px 25px">
+            <mj-group>
+                <mj-column width="100px">
+                    <mj-button
+                            color="#FFFFFF"
+                            background-color="#000000"
+                            href="https://www.amnesty.org/en/get-involved/take-action/"
+                            align="left"
+                            padding="0"
+                    >
+                        Yes
+                    </mj-button>
+                </mj-column>
+                <mj-column width="100px">
+                    <mj-button
+                            color="#FFFFFF"
+                            background-color="#000000"
+                            href="https://www.amnesty.org/en/get-involved/take-action/"
+                            align="left"
+                            padding="0"
+                    >
+                        No
+                    </mj-button>
+                </mj-column>
+                <mj-column width="150px">
+                    <mj-button
+                            color="#FFFFFF"
+                            background-color="#000000"
+                            href="https://www.amnesty.org/en/get-involved/take-action/"
+                            align="left"
+                            padding="0"
+                    >
+                        Maybe
+                    </mj-button>
+                </mj-column>
+            </mj-group>
+        </mj-section>
+        <!-- END: Inline CTA Buttons -->
+
+        <!-- START: 2nd idea - Inline CTA Buttons -->
+        <mj-section css-class="cta-button-block block" background-color="#FFFFFF" padding="5px 0">
+            <mj-column>
+                <mj-table width="300px">
+                    <tr>
+                        <td>
+                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                                <tbody>
+                                    <tr>
+                                        <td align="left" class="button" style="font-size:0px;padding:0;word-break:break-word;">
+                                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
+                                                <tbody>
+                                                    <tr>
+                                                        <td align="left" bgcolor="#000000" role="presentation" style="border:none;border-radius:100px;cursor:auto;mso-padding-alt:16px 24px;background:#000000;" valign="middle">
+                                                            <a href="" style="display:inline-block;background:#000000;color:#FFFFFF;font-family:Arial, sans-serif;font-size:18px;font-weight:700;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:16px 24px;mso-padding-alt:0px;border-radius:100px;">
+                                                                Yesssssss
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                        <td>
+                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                                <tbody>
+                                    <tr>
+                                        <td align="left" class="button" style="font-size:0px;padding:0;word-break:break-word;">
+                                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
+                                                <tbody>
+                                                    <tr>
+                                                        <td align="left" bgcolor="#000000" role="presentation" style="border:none;border-radius:100px;cursor:auto;mso-padding-alt:16px 24px;background:#000000;" valign="middle">
+                                                            <a href="" style="display:inline-block;background:#000000;color:#FFFFFF;font-family:Arial, sans-serif;font-size:18px;font-weight:700;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:16px 24px;mso-padding-alt:0px;border-radius:100px;">
+                                                                No
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                        <td>
+                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                                <tbody>
+                                    <tr>
+                                        <td align="left" class="button" style="font-size:0px;padding:0;word-break:break-word;">
+                                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
+                                                <tbody>
+                                                    <tr>
+                                                        <td align="left" bgcolor="#000000" role="presentation" style="border:none;border-radius:100px;cursor:auto;mso-padding-alt:16px 24px;background:#000000;" valign="middle">
+                                                            <a href="" style="display:inline-block;background:#000000;color:#FFFFFF;font-family:Arial, sans-serif;font-size:18px;font-weight:700;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:16px 24px;mso-padding-alt:0px;border-radius:100px;">
+                                                                No
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                </mj-table>
+            </mj-column>
+        </mj-section>
+        <!-- END: 2nd idea - Inline CTA Buttons -->
 
         <!-- START: Spacer -->
 <!--        <mj-section css-class="spacer-block block" padding="0">-->
