@@ -52,6 +52,15 @@
                 line-height: 1.6;
             }
 
+            .footer-text p {
+                font-size: 10px;
+            }
+
+            .footer-text a {
+                font-weight: 400;
+                color: #ffffff;
+            }
+
             .wysiwyg > div > *:first-child {
                 margin-top: 0;
             }
@@ -214,10 +223,13 @@
             }
 
             /*
+
               Black #000000
               White #FFFFFF
               Yellow #FFFF3B
               Pink: #FF5D70
+
+              Background Gray #f4f4f4
              */
         </mj-style>
     </mj-head>
@@ -421,7 +433,7 @@
         <!-- START: 2nd idea - Inline CTA Buttons -->
         <mj-section css-class="cta-button-block block" background-color="#FFFFFF" padding="5px 0">
             <mj-column>
-                <mj-table width="300px">
+                <mj-table width="80%" align="left">
                     <tr>
                         <td>
                             <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
@@ -475,7 +487,7 @@
                                                     <tr>
                                                         <td align="left" bgcolor="#000000" role="presentation" style="border:none;border-radius:100px;cursor:auto;mso-padding-alt:16px 24px;background:#000000;" valign="middle">
                                                             <a href="" style="display:inline-block;background:#000000;color:#FFFFFF;font-family:Arial, sans-serif;font-size:18px;font-weight:700;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:16px 24px;mso-padding-alt:0px;border-radius:100px;">
-                                                                No
+                                                                Maybe
                                                             </a>
                                                         </td>
                                                     </tr>
@@ -527,7 +539,7 @@
                         css-class="social-link"
                         name="facebook-noshare"
                         src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1839/email-fb-icon.png?v=1741276381000"
-                        href=""
+                        href="https://www.facebook.com/amnestyusa"
                         background-color="#FFFF3B"
                         icon-size="12px"
                         alt="Facebook Logo"
@@ -566,7 +578,7 @@
 
         <!-- START: Footer -->
         <mj-section css-class="footer-block block" background-color="#000000">
-            <mj-column>
+            <mj-column width="360px">
                 <mj-image
                         alt=""
                         src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1839/email-logo-reverse.png?v=1741276383000"
@@ -583,12 +595,12 @@
                         css-class="dark-only"
                 />
                 <mj-raw><!--<![endif]--></mj-raw>
-                <mj-text align="center" line-height="18px" padding="10px 25px 0" color="#ffffff">
-                    <p style="font-size: 10px; max-width: 330px; margin: 0 auto;">
-                        © 2025 Amnesty International USA
-                        311 W 43rd Street, 7th Floor, New York, NY 10036 | 1-800-AMNESTY
+                <mj-text align="center" line-height="18px" padding="10px 25px 0" color="#ffffff" css-class="footer-text">
+                    <p style="font-size: 10px;">
+                        © 2025 Amnesty International USA<br>
+                        311 W 43rd Street, 7th Floor, New York, NY 10036 | 1-800-AMNESTY<br>
                         Please don't reply to this email. You can send questions to aimember@aiusa.org.</p>
-                    <p style="font-size: 10px; max-width: 330px; margin: 20px auto 0;">
+                    <p style="font-size: 10px;">
                         We’re so happy you’re here to hear about the most important updates on human rights! If necessary, you can opt to receive fewer emails or unsubscribe here.
                     </p>
                 </mj-text>
