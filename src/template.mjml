@@ -113,6 +113,10 @@
                     width: 100%!important;
                     padding: 15px 0!important;
                 }
+
+                .three-cta-button-block table {
+                    width: 100%!important;
+                }
             }
 
             .hide-content {
@@ -208,17 +212,11 @@
                 }
 
                 .social-link table td {
-                    padding: 0px !important;
+                    padding: 3px !important;
                 }
 
-                .social-link table,
-                .social-link img {
-                    border-radius: 50% !important;
-                }
-
-                .social-link img {
-                    border: 1px solid #b0b4b5 !important;
-                    border-radius: 50% !important;
+                .divider > p {
+                    border-color: #eeeeee!important;
                 }
             }
 
@@ -365,6 +363,42 @@
         </mj-section>
         <!-- END: Card -->
 
+        <!-- START: Divider -->
+        <mj-section css-class="divider-block block" background-color="#ffffff">
+            <mj-column>
+                <mj-divider css-class="divider" border-color="#000000" border-width="2px" padding="0" />
+            </mj-column>
+        </mj-section>
+        <!-- END: Divider -->
+
+        <!-- START: Quote -->
+        <mj-section css-class="quote-block block" background-color="#ffffff" padding="20px 25px">
+            <mj-column>
+                <mj-divider css-class="divider" border-color="#000000" border-width="2px" padding="0" />
+                <mj-image
+                    src="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1839/email-quote.png?v=1742388761000"
+                    alt="quote icon"
+                    width="60px"
+                    align="center"
+                    padding="25px 25px 0"
+                />
+                <mj-text css-class="wysiwyg" padding="25px 40px">
+                    <p style="font-style: italic;font-size: 20px;text-align: center; margin-top: 0">
+                        Lorem ipsum dolor sit amet consectetur. Scelerisque vel mattis feugiat nec risus netus donec. Purus dolor pretium neque nulla sed malesuada.
+                    </p>
+                    <p style="font-size: 20px;text-align: center;font-weight: bold;margin-bottom: 0">
+                        Billie Hirsch
+                    </p>
+                    <p style="font-size: 16px;text-align: center;margin:0;line-height: 1.4">
+                        Director of Online Engagement<br>
+                        Amnesty International USA
+                    </p>
+                </mj-text>
+                <mj-divider css-class="divider" border-color="#000000" border-width="2px" padding="0" />
+            </mj-column>
+        </mj-section>
+        <!-- END: Quote -->
+
         <!-- START: Signature card -->
         <mj-section css-class="signature-block block" background-color="#ffffff">
             <mj-group>
@@ -391,118 +425,71 @@
         <!-- END: Signature card -->
 
         <!-- START: Inline CTA Buttons -->
-        <mj-section css-class="cta-button-block block" background-color="#FFFFFF" text-align="left" padding="20px 25px">
+        <mj-section css-class="cta-button-block block" background-color="#FFFFFF" padding="20px 15px">
             <mj-group>
-                <mj-column width="100px">
+                <mj-column>
                     <mj-button
-                            color="#FFFFFF"
-                            background-color="#000000"
-                            href="https://www.amnesty.org/en/get-involved/take-action/"
-                            align="left"
-                            padding="0"
+                        color="#FFFFFF"
+                        background-color="#000000"
+                        href="https://www.amnesty.org/en/get-involved/take-action/"
+                        align="right"
+                        padding="0 10px"
                     >
-                        Yes
+                        OPTION 1
                     </mj-button>
                 </mj-column>
-                <mj-column width="100px">
+                <mj-column>
                     <mj-button
-                            color="#FFFFFF"
-                            background-color="#000000"
-                            href="https://www.amnesty.org/en/get-involved/take-action/"
-                            align="left"
-                            padding="0"
+                        color="#FFFFFF"
+                        background-color="#000000"
+                        href="https://www.amnesty.org/en/get-involved/take-action/"
+                        align="left"
+                        padding="0 10px"
                     >
-                        No
-                    </mj-button>
-                </mj-column>
-                <mj-column width="150px">
-                    <mj-button
-                            color="#FFFFFF"
-                            background-color="#000000"
-                            href="https://www.amnesty.org/en/get-involved/take-action/"
-                            align="left"
-                            padding="0"
-                    >
-                        Maybe
+                        OPTION 2
                     </mj-button>
                 </mj-column>
             </mj-group>
         </mj-section>
         <!-- END: Inline CTA Buttons -->
 
-        <!-- START: 2nd idea - Inline CTA Buttons -->
-        <mj-section css-class="cta-button-block block" background-color="#FFFFFF" padding="5px 0">
+        <!-- START: Inline 3 CTA Buttons -->
+        <mj-section css-class="three-cta-button-block block" background-color="#FFFFFF" padding="20px 15px">
             <mj-column>
-                <mj-table width="80%" align="left">
-                    <tr>
-                        <td>
-                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
-                                <tbody>
-                                    <tr>
-                                        <td align="left" class="button" style="font-size:0px;padding:0;word-break:break-word;">
-                                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
-                                                <tbody>
-                                                    <tr>
-                                                        <td align="left" bgcolor="#000000" role="presentation" style="border:none;border-radius:100px;cursor:auto;mso-padding-alt:16px 24px;background:#000000;" valign="middle">
-                                                            <a href="" style="display:inline-block;background:#000000;color:#FFFFFF;font-family:Arial, sans-serif;font-size:18px;font-weight:700;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:16px 24px;mso-padding-alt:0px;border-radius:100px;">
-                                                                Yesssssss
-                                                            </a>
-                                                        </td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </td>
-                        <td>
-                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
-                                <tbody>
-                                    <tr>
-                                        <td align="left" class="button" style="font-size:0px;padding:0;word-break:break-word;">
-                                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
-                                                <tbody>
-                                                    <tr>
-                                                        <td align="left" bgcolor="#000000" role="presentation" style="border:none;border-radius:100px;cursor:auto;mso-padding-alt:16px 24px;background:#000000;" valign="middle">
-                                                            <a href="" style="display:inline-block;background:#000000;color:#FFFFFF;font-family:Arial, sans-serif;font-size:18px;font-weight:700;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:16px 24px;mso-padding-alt:0px;border-radius:100px;">
-                                                                No
-                                                            </a>
-                                                        </td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </td>
-                        <td>
-                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
-                                <tbody>
-                                    <tr>
-                                        <td align="left" class="button" style="font-size:0px;padding:0;word-break:break-word;">
-                                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
-                                                <tbody>
-                                                    <tr>
-                                                        <td align="left" bgcolor="#000000" role="presentation" style="border:none;border-radius:100px;cursor:auto;mso-padding-alt:16px 24px;background:#000000;" valign="middle">
-                                                            <a href="" style="display:inline-block;background:#000000;color:#FFFFFF;font-family:Arial, sans-serif;font-size:18px;font-weight:700;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:16px 24px;mso-padding-alt:0px;border-radius:100px;">
-                                                                Maybe
-                                                            </a>
-                                                        </td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </td>
-                    </tr>
-                </mj-table>
+                <mj-button
+                        color="#FFFFFF"
+                        background-color="#000000"
+                        href="https://www.amnesty.org/en/get-involved/take-action/"
+                        align="right"
+                        padding="10px"
+                >
+                    OPTION 1
+                </mj-button>
+            </mj-column>
+            <mj-column>
+                <mj-button
+                        color="#FFFFFF"
+                        background-color="#000000"
+                        href="https://www.amnesty.org/en/get-involved/take-action/"
+                        align="center"
+                        padding="10px"
+                >
+                    OPTION 2
+                </mj-button>
+            </mj-column>
+            <mj-column>
+                <mj-button
+                        color="#FFFFFF"
+                        background-color="#000000"
+                        href="https://www.amnesty.org/en/get-involved/take-action/"
+                        align="left"
+                        padding="10px"
+                >
+                    OPTION 3
+                </mj-button>
             </mj-column>
         </mj-section>
-        <!-- END: 2nd idea - Inline CTA Buttons -->
+        <!-- END: Inline 3 CTA Buttons -->
 
         <!-- START: Spacer -->
 <!--        <mj-section css-class="spacer-block block" padding="0">-->
