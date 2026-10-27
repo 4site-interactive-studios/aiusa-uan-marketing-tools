@@ -230,6 +230,23 @@
               Background Gray #f4f4f4
              */
         </mj-style>
+
+        <mj-style inline="inline">
+            .certification-logos table {
+                vertical-align: middle;
+            }
+        </mj-style>
+
+        <mj-style>
+            @media only screen and (max-width: 479px) {
+                .certification-logo td {
+                    padding: 10px !important;
+                }
+                .certification-logo td td {
+                    padding: 0 !important;
+                }
+            }
+        </mj-style>
     </mj-head>
     <mj-body css-class="email-body" background-color="#f4f4f4">
         <!-- START: Main Content -->
@@ -307,6 +324,42 @@
             </mj-column>
         </mj-section>
         <!-- END: WYSIWYG (Text content) -->
+
+        <!-- START: Certification Logos -->
+        <mj-section css-class="certification-block block" background-color="#FFFFFF" padding="0">
+            <mj-column>
+                <mj-social
+                        css-class="certification-logos"
+                        mode="horizontal"
+                        align="center"
+                        padding="10px 0px"
+                        inner-padding="10px"
+                        border-radius="0px"
+                >
+                    <mj-social-element
+                        css-class="certification-logo"
+                        name="certification-1-noshare"
+                        src="https://c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1839/bbb-logo.png"
+                        href="https://give.org/charity-reviews/civil-rights/amnesty-international-of-the-usa-in-new-york-ny-9999-143"
+                        alt="BBB Wise Giving Alliance Logo"
+                        icon-size="106px"
+                        icon-height="40px"
+                        vertical-align="middle"
+                    />
+                    <mj-social-element
+                        css-class="certification-logo"
+                        name="certification-2-noshare"
+                        src="https://c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1839/Charity+Nav.jpg"
+                        href="https://www.charitynavigator.org/ein/520851555"
+                        alt="Charity Navigator Logo"
+                        icon-size="60px"
+                        icon-height="60px"
+                        vertical-align="middle"
+                    />
+                </mj-social>
+            </mj-column>
+        </mj-section>
+        <!-- END: Certification Logos -->
 
         <!-- START: CTA Button -->
         <mj-section css-class="cta-button-block block" background-color="#FFFF3B" padding="5px 0">

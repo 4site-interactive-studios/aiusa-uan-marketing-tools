@@ -1,0 +1,442 @@
+[
+  {
+    "clientId": 1839,
+    "ownedBy": 22342,
+    "folderId": 3775,
+    "name": "Certification Logos Block",
+    "type": "CUSTOM",
+    "thumbnail": "https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1839/charity-logos-block.png",
+    "content": "<!-- START: Certification Logos -->\n    <style type=\"text/css\">\n      @media only screen and (max-width: 479px) {\n        .certification-logo td { padding: 4px !important; }\n        .certification-logo td td { padding: 0 !important; }\n      }\n    </style>\n      <!--[if mso | IE]><table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"certification-block-outlook block-outlook\" role=\"presentation\" style=\"width:600px;\" width=\"600\" bgcolor=\"{replacement~background_color}\" ><tr><td style=\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\"><![endif]-->\n      <div  class=\"certification-block block\" style=\"background:{replacement~background_color};background-color:{replacement~background_color};margin:0px auto;max-width:600px;\">\n        <table\n           align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"background:{replacement~background_color};background-color:{replacement~background_color};width:100%;\"\n        >\n          <tbody>\n            <tr>\n              <td\n                 style=\"direction:ltr;font-size:0px;padding:0;text-align:center;\"\n              >\n                <!--[if mso | IE]><table role=\"presentation\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tr><td class=\"\" style=\"vertical-align:top;width:600px;\" ><![endif]-->\n      <div\n         class=\"mj-column-per-100 mj-outlook-group-fix\" style=\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\"\n      >\n      <table\n         border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"vertical-align:top;\" width=\"100%\"\n      >\n        <tbody>\n              <tr>\n                <td\n                   align=\"{replacement~logo_alignment}\" class=\"certification-logos\" style=\"font-size:0px;padding:{replacement~space_top}px 0px {replacement~space_bottom}px;word-break:break-word;\"\n                >\n     <!--[if mso | IE]><table align=\"{replacement~logo_alignment}\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" ><tr><td><![endif]-->\n              <table\n                 align=\"{replacement~logo_alignment}\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" valign=\"middle\" style=\"float:none;display:inline-table;vertical-align:middle;\"\n              >\n                <tbody>\n      {replacement~show_logo_1?}\n                </tbody>\n              </table>\n            <!--[if mso | IE]></td><td><![endif]-->\n              <table\n                 align=\"{replacement~logo_alignment}\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" valign=\"middle\" style=\"float:none;display:inline-table;vertical-align:middle;\"\n              >\n                <tbody>\n      {replacement~show_logo_2?}\n                </tbody>\n              </table>\n            <!--[if mso | IE]></td><td><![endif]-->\n              <table\n                 align=\"{replacement~logo_alignment}\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" valign=\"middle\" style=\"float:none;display:inline-table;vertical-align:middle;\"\n              >\n                <tbody>\n      {replacement~show_logo_3?}\n                </tbody>\n              </table>\n            <!--[if mso | IE]></td><td><![endif]-->\n              <table\n                 align=\"{replacement~logo_alignment}\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" valign=\"middle\" style=\"float:none;display:inline-table;vertical-align:middle;\"\n              >\n                <tbody>\n      {replacement~show_logo_4?}\n                </tbody>\n              </table>\n            <!--[if mso | IE]></td></tr></table><![endif]-->\n                </td>\n              </tr>\n        </tbody>\n      </table>\n      </div>\n          <!--[if mso | IE]></td></tr></table><![endif]-->\n              </td>\n            </tr>\n          </tbody>\n        </table>\n      </div>\n      <!--[if mso | IE]></td></tr></table><![endif]-->\n    <!-- END: Certification Logos -->",
+    "data": {
+      "replacements": {
+        "show_logo_1?": {
+          "type": "Select",
+          "values": {
+            "default": {
+              "value": "<tr class=\"certification-logo\" ><td style=\"padding:{replacement~logo_spacing_(px)}px;vertical-align:middle;\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"border-radius:0px;width:{replacement~logo_1_width_(px)}px;\" ><tbody><tr><td style=\"font-size:0;height:{replacement~logo_1_height_(px)}px;vertical-align:middle;width:{replacement~logo_1_width_(px)}px;\"><a href=\"{replacement~logo_1_link}\" target=\"_blank\"><img alt=\"{replacement~logo_1_alt_text}\" height=\"{replacement~logo_1_height_(px)}\" src=\"{replacement~logo_1_image}\" style=\"border-radius:0px;display:block;\" width=\"{replacement~logo_1_width_(px)}\" /></a></td></tr></tbody></table></td></tr>"
+            }
+          },
+          "order": 0,
+          "label": "Show Logo 1?",
+          "name": "show_logo_1?",
+          "section": "Logo 1",
+          "options": [
+            {
+              "value": "<tr class=\"certification-logo\" ><td style=\"padding:{replacement~logo_spacing_(px)}px;vertical-align:middle;\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"border-radius:0px;width:{replacement~logo_1_width_(px)}px;\" ><tbody><tr><td style=\"font-size:0;height:{replacement~logo_1_height_(px)}px;vertical-align:middle;width:{replacement~logo_1_width_(px)}px;\"><a href=\"{replacement~logo_1_link}\" target=\"_blank\"><img alt=\"{replacement~logo_1_alt_text}\" height=\"{replacement~logo_1_height_(px)}\" src=\"{replacement~logo_1_image}\" style=\"border-radius:0px;display:block;\" width=\"{replacement~logo_1_width_(px)}\" /></a></td></tr></tbody></table></td></tr>",
+              "label": "Yes"
+            },
+            {
+              "value": "<tr><td></td></tr>",
+              "label": "No"
+            }
+          ]
+        },
+        "logo_1_image": {
+          "type": "ImageURL",
+          "values": {
+            "default": {
+              "value": "https://c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1839/bbb-logo.png"
+            }
+          },
+          "order": 1,
+          "label": "Logo 1 Image",
+          "name": "logo_1_image",
+          "section": "Logo 1"
+        },
+        "logo_1_alt_text": {
+          "type": "Text",
+          "values": {
+            "default": {
+              "value": "BBB Wise Giving Alliance Logo"
+            }
+          },
+          "order": 2,
+          "label": "Logo 1 Alt Text",
+          "name": "logo_1_alt_text",
+          "section": "Logo 1"
+        },
+        "logo_1_link": {
+          "type": "Link",
+          "values": {
+            "default": {
+              "value": "{external_url~https://give.org/charity-reviews/civil-rights/amnesty-international-of-the-usa-in-new-york-ny-9999-143~91d46261}"
+            }
+          },
+          "order": 3,
+          "label": "Logo 1 Link",
+          "name": "logo_1_link",
+          "section": "Logo 1"
+        },
+        "logo_1_width_(px)": {
+          "type": "Text",
+          "values": {
+            "default": {
+              "value": "106"
+            }
+          },
+          "order": 4,
+          "label": "Logo 1 Width (px)",
+          "name": "logo_1_width_(px)",
+          "section": "Logo 1"
+        },
+        "logo_1_height_(px)": {
+          "type": "Text",
+          "values": {
+            "default": {
+              "value": "40"
+            }
+          },
+          "order": 5,
+          "label": "Logo 1 Height (px)",
+          "name": "logo_1_height_(px)",
+          "section": "Logo 1"
+        },
+        "show_logo_2?": {
+          "type": "Select",
+          "values": {
+            "default": {
+              "value": "<tr class=\"certification-logo\" ><td style=\"padding:{replacement~logo_spacing_(px)}px;vertical-align:middle;\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"border-radius:0px;width:{replacement~logo_2_width_(px)}px;\" ><tbody><tr><td style=\"font-size:0;height:{replacement~logo_2_height_(px)}px;vertical-align:middle;width:{replacement~logo_2_width_(px)}px;\"><a href=\"{replacement~logo_2_link}\" target=\"_blank\"><img alt=\"{replacement~logo_2_alt_text}\" height=\"{replacement~logo_2_height_(px)}\" src=\"{replacement~logo_2_image}\" style=\"border-radius:0px;display:block;\" width=\"{replacement~logo_2_width_(px)}\" /></a></td></tr></tbody></table></td></tr>"
+            }
+          },
+          "order": 6,
+          "label": "Show Logo 2?",
+          "name": "show_logo_2?",
+          "section": "Logo 2",
+          "options": [
+            {
+              "value": "<tr class=\"certification-logo\" ><td style=\"padding:{replacement~logo_spacing_(px)}px;vertical-align:middle;\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"border-radius:0px;width:{replacement~logo_2_width_(px)}px;\" ><tbody><tr><td style=\"font-size:0;height:{replacement~logo_2_height_(px)}px;vertical-align:middle;width:{replacement~logo_2_width_(px)}px;\"><a href=\"{replacement~logo_2_link}\" target=\"_blank\"><img alt=\"{replacement~logo_2_alt_text}\" height=\"{replacement~logo_2_height_(px)}\" src=\"{replacement~logo_2_image}\" style=\"border-radius:0px;display:block;\" width=\"{replacement~logo_2_width_(px)}\" /></a></td></tr></tbody></table></td></tr>",
+              "label": "Yes"
+            },
+            {
+              "value": "<tr><td></td></tr>",
+              "label": "No"
+            }
+          ]
+        },
+        "logo_2_image": {
+          "type": "ImageURL",
+          "values": {
+            "default": {
+              "value": "https://c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1839/Charity+Nav.jpg"
+            }
+          },
+          "order": 7,
+          "label": "Logo 2 Image",
+          "name": "logo_2_image",
+          "section": "Logo 2"
+        },
+        "logo_2_alt_text": {
+          "type": "Text",
+          "values": {
+            "default": {
+              "value": "Charity Navigator Logo"
+            }
+          },
+          "order": 8,
+          "label": "Logo 2 Alt Text",
+          "name": "logo_2_alt_text",
+          "section": "Logo 2"
+        },
+        "logo_2_link": {
+          "type": "Link",
+          "values": {
+            "default": {
+              "value": "{external_url~https://www.charitynavigator.org/ein/520851555~ff0abb69}"
+            }
+          },
+          "order": 9,
+          "label": "Logo 2 Link",
+          "name": "logo_2_link",
+          "section": "Logo 2"
+        },
+        "logo_2_width_(px)": {
+          "type": "Text",
+          "values": {
+            "default": {
+              "value": "60"
+            }
+          },
+          "order": 10,
+          "label": "Logo 2 Width (px)",
+          "name": "logo_2_width_(px)",
+          "section": "Logo 2"
+        },
+        "logo_2_height_(px)": {
+          "type": "Text",
+          "values": {
+            "default": {
+              "value": "60"
+            }
+          },
+          "order": 11,
+          "label": "Logo 2 Height (px)",
+          "name": "logo_2_height_(px)",
+          "section": "Logo 2"
+        },
+        "show_logo_3?": {
+          "type": "Select",
+          "values": {
+            "default": {
+              "value": "<tr><td></td></tr>"
+            }
+          },
+          "order": 12,
+          "label": "Show Logo 3?",
+          "name": "show_logo_3?",
+          "section": "Logo 3",
+          "options": [
+            {
+              "value": "<tr class=\"certification-logo\" ><td style=\"padding:{replacement~logo_spacing_(px)}px;vertical-align:middle;\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"border-radius:0px;width:{replacement~logo_3_width_(px)}px;\" ><tbody><tr><td style=\"font-size:0;height:{replacement~logo_3_height_(px)}px;vertical-align:middle;width:{replacement~logo_3_width_(px)}px;\"><a href=\"{replacement~logo_3_link}\" target=\"_blank\"><img alt=\"{replacement~logo_3_alt_text}\" height=\"{replacement~logo_3_height_(px)}\" src=\"{replacement~logo_3_image}\" style=\"border-radius:0px;display:block;\" width=\"{replacement~logo_3_width_(px)}\" /></a></td></tr></tbody></table></td></tr>",
+              "label": "Yes"
+            },
+            {
+              "value": "<tr><td></td></tr>",
+              "label": "No"
+            }
+          ]
+        },
+        "logo_3_image": {
+          "type": "ImageURL",
+          "values": {
+            "default": {
+              "value": "https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1839/logo3.png"
+            }
+          },
+          "order": 13,
+          "label": "Logo 3 Image",
+          "name": "logo_3_image",
+          "section": "Logo 3"
+        },
+        "logo_3_alt_text": {
+          "type": "Text",
+          "values": {
+            "default": {
+              "value": "Certification Logo 3"
+            }
+          },
+          "order": 14,
+          "label": "Logo 3 Alt Text",
+          "name": "logo_3_alt_text",
+          "section": "Logo 3"
+        },
+        "logo_3_link": {
+          "type": "Link",
+          "values": {
+            "default": {
+              "value": "{external_url~https://www.amnestyusa.org/~d1ab3236}"
+            }
+          },
+          "order": 15,
+          "label": "Logo 3 Link",
+          "name": "logo_3_link",
+          "section": "Logo 3"
+        },
+        "logo_3_width_(px)": {
+          "type": "Text",
+          "values": {
+            "default": {
+              "value": "60"
+            }
+          },
+          "order": 16,
+          "label": "Logo 3 Width (px)",
+          "name": "logo_3_width_(px)",
+          "section": "Logo 3"
+        },
+        "logo_3_height_(px)": {
+          "type": "Text",
+          "values": {
+            "default": {
+              "value": "60"
+            }
+          },
+          "order": 17,
+          "label": "Logo 3 Height (px)",
+          "name": "logo_3_height_(px)",
+          "section": "Logo 3"
+        },
+        "show_logo_4?": {
+          "type": "Select",
+          "values": {
+            "default": {
+              "value": "<tr><td></td></tr>"
+            }
+          },
+          "order": 18,
+          "label": "Show Logo 4?",
+          "name": "show_logo_4?",
+          "section": "Logo 4",
+          "options": [
+            {
+              "value": "<tr class=\"certification-logo\" ><td style=\"padding:{replacement~logo_spacing_(px)}px;vertical-align:middle;\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"border-radius:0px;width:{replacement~logo_4_width_(px)}px;\" ><tbody><tr><td style=\"font-size:0;height:{replacement~logo_4_height_(px)}px;vertical-align:middle;width:{replacement~logo_4_width_(px)}px;\"><a href=\"{replacement~logo_4_link}\" target=\"_blank\"><img alt=\"{replacement~logo_4_alt_text}\" height=\"{replacement~logo_4_height_(px)}\" src=\"{replacement~logo_4_image}\" style=\"border-radius:0px;display:block;\" width=\"{replacement~logo_4_width_(px)}\" /></a></td></tr></tbody></table></td></tr>",
+              "label": "Yes"
+            },
+            {
+              "value": "<tr><td></td></tr>",
+              "label": "No"
+            }
+          ]
+        },
+        "logo_4_image": {
+          "type": "ImageURL",
+          "values": {
+            "default": {
+              "value": "https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1839/logo+4.png"
+            }
+          },
+          "order": 19,
+          "label": "Logo 4 Image",
+          "name": "logo_4_image",
+          "section": "Logo 4"
+        },
+        "logo_4_alt_text": {
+          "type": "Text",
+          "values": {
+            "default": {
+              "value": "Certification Logo 4"
+            }
+          },
+          "order": 20,
+          "label": "Logo 4 Alt Text",
+          "name": "logo_4_alt_text",
+          "section": "Logo 4"
+        },
+        "logo_4_link": {
+          "type": "Link",
+          "values": {
+            "default": {
+              "value": "{external_url~https://www.amnestyusa.org/~10d0423a}"
+            }
+          },
+          "order": 21,
+          "label": "Logo 4 Link",
+          "name": "logo_4_link",
+          "section": "Logo 4"
+        },
+        "logo_4_width_(px)": {
+          "type": "Text",
+          "values": {
+            "default": {
+              "value": "60"
+            }
+          },
+          "order": 22,
+          "label": "Logo 4 Width (px)",
+          "name": "logo_4_width_(px)",
+          "section": "Logo 4"
+        },
+        "logo_4_height_(px)": {
+          "type": "Text",
+          "values": {
+            "default": {
+              "value": "60"
+            }
+          },
+          "order": 23,
+          "label": "Logo 4 Height (px)",
+          "name": "logo_4_height_(px)",
+          "section": "Logo 4"
+        },
+        "logo_alignment": {
+          "type": "Select",
+          "values": {
+            "default": {
+              "value": "center"
+            }
+          },
+          "order": 24,
+          "label": "Logo Alignment",
+          "name": "logo_alignment",
+          "section": "Block Settings",
+          "options": [
+            {
+              "value": "left",
+              "label": "Left"
+            },
+            {
+              "value": "center",
+              "label": "Center"
+            },
+            {
+              "value": "right",
+              "label": "Right"
+            }
+          ]
+        },
+        "logo_spacing_(px)": {
+          "type": "Text",
+          "values": {
+            "default": {
+              "value": "10"
+            }
+          },
+          "order": 25,
+          "label": "Logo Spacing (px)",
+          "name": "logo_spacing_(px)",
+          "section": "Block Settings"
+        },
+        "space_top": {
+          "type": "Text",
+          "values": {
+            "default": {
+              "value": "10"
+            }
+          },
+          "order": 26,
+          "label": "Space Top",
+          "name": "space_top",
+          "section": "Block Settings"
+        },
+        "space_bottom": {
+          "type": "Text",
+          "values": {
+            "default": {
+              "value": "10"
+            }
+          },
+          "order": 27,
+          "label": "Space Bottom",
+          "name": "space_bottom",
+          "section": "Block Settings"
+        },
+        "background_color": {
+          "type": "Select",
+          "values": {
+            "default": {
+              "value": "#000000"
+            }
+          },
+          "order": 28,
+          "label": "Background Color",
+          "name": "background_color",
+          "section": "Block Settings",
+          "options": [
+            {
+              "value": "#000000",
+              "label": "Black"
+            },
+            {
+              "value": "#FFFFFF",
+              "label": "White"
+            },
+            {
+              "value": "#FFFF3B",
+              "label": "Yellow"
+            },
+            {
+              "value": "#FF5D70",
+              "label": "Pink"
+            },
+            {
+              "value": "#e5e5e5",
+              "label": "Grey"
+            }
+          ]
+        }
+      }
+    },
+    "createdOn": 1793118670000,
+    "modifiedOn": 1793119586000,
+    "exportId": 15249
+  }
+]
